@@ -1,6 +1,6 @@
 {
   "name": "@reupload/react",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Ready-to-use React file uploaders for Reupload",
   "type": "module",
   "license": "MIT",
@@ -42,13 +42,14 @@
     "dropzone"
   ],
   "dependencies": {
-    "@reupload/client": "file:../reupload-client"
+    "@reupload/client": "^0.2.0"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },
   "devDependencies": {
+    "@reupload/client": "^0.2.0",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "react": "^19.1.0",

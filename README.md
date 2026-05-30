@@ -2,12 +2,12 @@
 
 Ready-to-use React file uploaders for [Reupload](https://reupload.dev). Import a component, set your backend URL, and upload — no API key in the browser.
 
-Built on [`@reupload/client`](../reupload-client) (CDN flow: prepare → signed URL PUT → complete).
+Built on [`@reupload/client`](https://www.npmjs.com/package/@reupload/client) (CDN flow: prepare → signed URL PUT → complete).
 
 ## Install
 
 ```bash
-npm install @reupload/react @reupload/client react react-dom
+npm install @reupload/react @reupload/client
 ```
 
 ## Setup
@@ -34,7 +34,7 @@ export function App({ children }: { children: React.ReactNode }) {
 }
 ```
 
-Your Node API must expose the [backend file router](../reupload-client#backend-file-router) (`/uploads/prepare`, `/uploads/complete`, etc.). Use [`@reupload/sdk`](../reupload-sdk) on the server.
+Your Node API must expose the [backend file router](../reupload-client#backend-file-router) (`/uploads/prepare`, `/uploads/complete`, etc.). Use [`@reupload/sdk`](https://www.npmjs.com/package/@reupload/sdk) on the server.
 
 ## Uploaders
 
@@ -119,7 +119,7 @@ import { FileUploader } from "@reupload/react";
 />;
 ```
 
-Optional async gate when the user confirms (shared type from `@reupload/client`):
+Optional async gate when the user confirms (shared type from [`@reupload/client`](https://www.npmjs.com/package/@reupload/client)):
 
 ```tsx
 import type { BeforeUploadHandler } from "@reupload/client";
