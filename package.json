@@ -16,6 +16,15 @@
     },
     "./styles.css": "./dist/styles.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Reupload-v2/reupload-react",
+    "directory": "node-packages/reupload-react"
+  },
+  "homepage": "https://docs.reupload.dev",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "dist",
     "README.md"
